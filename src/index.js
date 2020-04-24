@@ -2,10 +2,16 @@
 
 const $ = require('jquery');
 
-// function sayHello () {
-//     console.log('hello');
-// }
-// sayHello ();
+// trying to connect the key files into the this js file
+const keys = require("./keys");
+console.log(keys);
+
+import mindblowingMath from './math.js';
+
+console.log(mindblowingMath.add(10,5));
+
+const niceMessage = require('./say-hello');
+console.log(niceMessage('sung'));
 
 // one liner arrow function.
 const person = { firstName: 'sung'}
